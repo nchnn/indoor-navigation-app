@@ -1,0 +1,3 @@
+{
+  "extends": "./indoor-navigator/tsconfig.json"
+}

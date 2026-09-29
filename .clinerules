@@ -1,0 +1,16 @@
+# Project Rules
+
+## Color & Theme Enforcement
+- All color values MUST be imported from `src/theme.ts` via `theme.colors.*`.
+- Never use hardcoded hex/rgb strings (e.g. `#fff`, `#232329`, `#FF5C8A`, `#F3F4F6`) in components, screens, or SVG elements.
+- Primary brand accent: `theme.colors.pink` (`#FF5C8A`), `theme.colors.pinkDark` (`#E84478`), `theme.colors.pinkSoft` (`#FFE3EC`), `theme.colors.pinkGlow`.
+- Neutrals: `theme.colors.ink` (`#232329`) for main text, `theme.colors.muted` (`#8A8A93`) for subtext, `theme.colors.grayBg` (`#F3F4F6`) for background, `theme.colors.grayBorder` (`#E5E7EB`) for borders, `theme.colors.white` (`#FFFFFF`) for surfaces.
+- Spatial/Map: `theme.colors.hallway`, `theme.colors.roomFill`, `theme.colors.roomBorder`.
+- Status: `theme.colors.success` for origin/checkpoint.
+- To introduce new colors, add them to `src/theme.ts` first.
+
+## Icon Enforcement
+- No emoji/emoticon characters in UI-rendered Text, SVG Text, or data icon fields.
+- All icons must be SVG-based from approved free-tier sources (see THEME_RULES.md §7).
+- Icon fill/stroke must use `theme.colors.*`.
+- Approved sources (free tier only): Lucide, Heroicons, Huge Icons, The SVG, Simple Icons.

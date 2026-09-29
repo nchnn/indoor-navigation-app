@@ -1,0 +1,9 @@
+# Theme & Color Management Rules
+
+- Source of Truth: All colors must be imported from `src/theme.ts` (`theme.colors.*`).
+- No hardcoded color literals (`#fff`, `#000`, hex, rgb/rgba) inside JSX or `StyleSheet.create`.
+- Primary Accent: `theme.colors.pink` (`#FF5C8A`), `pinkDark` (`#E84478`), `pinkSoft` (`#FFE3EC`), `pinkGlow`.
+- Neutrals: `theme.colors.ink` (`#232329`), `theme.colors.muted` (`#8A8A93`), `theme.colors.grayBg` (`#F3F4F6`), `theme.colors.grayBorder` (`#E5E7EB`), `theme.colors.white` (`#FFFFFF`).
+- Floorplan Map: `theme.colors.hallway`, `theme.colors.roomFill`, `theme.colors.roomBorder`.
+- Semantic: `theme.colors.success` (`#22C55E`).
+- If a new color is needed, add to `src/theme.ts` before using in UI.

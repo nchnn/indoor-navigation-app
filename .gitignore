@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Expo & Build artifacts
+.expo/
+**/.expo/
+dist/
+build/
+web-build/
+expo-env.d.ts
+
+# Environment variables & secrets
+*.env
+*.env.*
+*.env.local
+.env*.local
+
+# Certificates & Private Keys
+*.pem
+*.key
+*.crt
+*.p12
+*.keystore
+*.jks
+*.p8
+*.mobileprovision
+
+# Native generated folders
+/ios/
+/android/
+**/ios/
+**/android/
+
+# Metro / Debug logs
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

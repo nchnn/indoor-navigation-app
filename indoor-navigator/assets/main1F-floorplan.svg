@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <rect x="0" y="0" width="1600" height="900" rx="24" fill="#f8fafc"/>
+  <rect x="8" y="8" width="1584" height="884" rx="18" fill="#ffffff" stroke="#0f172a" stroke-width="4"/>
+
+  <!-- Title -->
+  <text x="800" y="48" text-anchor="middle" font-size="30" font-weight="800" fill="#0f172a">MAIN BUILDING — FIRST FLOOR</text>
+  <text x="800" y="72" text-anchor="middle" font-size="14" font-weight="600" fill="#64748b">Left Wing (Image 1) • CANTEEN Center • Right Wing (Image 2) • Mobile-optimized schematic – not to scale</text>
+
+  <!-- Hallways -->
+  <!-- Top hallway left -->
+  <rect x="20" y="210" width="630" height="44" fill="#e2e8f0" stroke="#0f172a" stroke-width="2.5"/>
+  <!-- Top hallway right -->
+  <rect x="910" y="210" width="670" height="44" fill="#e2e8f0" stroke="#0f172a" stroke-width="2.5"/>
+  <!-- Bottom hallway left -->
+  <rect x="20" y="548" width="630" height="44" fill="#e2e8f0" stroke="#0f172a" stroke-width="2.5"/>
+  <!-- Bottom hallway right -->
+  <rect x="910" y="548" width="670" height="44" fill="#e2e8f0" stroke="#0f172a" stroke-width="2.5"/>
+  <!-- Canteen connectors -->
+  <rect x="650" y="210" width="260" height="44" fill="#e2e8f0" stroke="#0f172a" stroke-width="2.5"/>
+  <rect x="650" y="548" width="260" height="44" fill="#e2e8f0" stroke="#0f172a" stroke-width="2.5"/>
+
+  <text x="335" y="237" text-anchor="middle" font-size="12" font-weight="700" fill="#475569">HALLWAY</text>
+  <text x="1245" y="237" text-anchor="middle" font-size="12" font-weight="700" fill="#475569">HALLWAY</text>
+  <text x="335" y="575" text-anchor="middle" font-size="12" font-weight="700" fill="#475569">HALLWAY</text>
+  <text x="1245" y="575" text-anchor="middle" font-size="12" font-weight="700" fill="#475569">HALLWAY</text>
+
+  <!-- ===== LEFT WING TOP ROOMS M112A-M118 ===== -->
+  <g stroke="#0f172a" stroke-width="2.5">
+    <rect x="20" y="100" width="70" height="110" fill="#fff"/>
+    <rect x="90" y="100" width="70" height="110" fill="#fff"/>
+    <rect x="160" y="100" width="70" height="110" fill="#fff"/>
+    <rect x="230" y="100" width="70" height="110" fill="#fff"/>
+    <rect x="300" y="100" width="85" height="110" fill="#fff"/>
+    <rect x="385" y="100" width="90" height="110" fill="#fff"/>
+    <rect x="475" y="100" width="100" height="110" fill="#fff"/>
+    <rect x="575" y="100" width="75" height="110" fill="#fff"/>
+  </g>
+  <g text-anchor="middle" font-weight="800" fill="#0f172a" font-size="16">
+    <text x="55" y="165">M112A</text>
+    <text x="125" y="165">M112B</text>
+    <text x="195" y="165">M113A</text>
+    <text x="265" y="165">M113B</text>
+    <text x="342" y="165">M114</text>
+    <text x="430" y="165">M115</text>
+    <text x="525" y="165">M117</text>
+    <text x="612" y="165">M118</text>
+  </g>
+
+  <!-- ===== LEFT WING BOTTOM ROOMS M112-M107 ===== -->
+  <g stroke="#0f172a" stroke-width="2.5">
+    <rect x="20" y="592" width="105" height="110" fill="#fff"/>
+    <rect x="125" y="592" width="105" height="110" fill="#fff"/>
+    <rect x="230" y="592" width="105" height="110" fill="#fff"/>
+    <rect x="335" y="592" width="105" height="110" fill="#fff"/>
+    <rect x="440" y="592" width="105" height="110" fill="#fff"/>
+    <rect x="545" y="592" width="105" height="110" fill="#fff"/>
+  </g>
+  <g text-anchor="middle" font-weight="800" fill="#0f172a" font-size="18">
+    <text x="72" y="657">M112</text>
+    <text x="177" y="657">M111</text>
+    <text x="282" y="657">M110</text>
+    <text x="387" y="657">M109</text>
+    <text x="492" y="657">M108</text>
+    <text x="597" y="657">M107</text>
+  </g>
+
+  <!-- ===== LEFT ANNEX + QUADRANGLE ===== -->
+  <g stroke="#0f172a" stroke-width="2.5">
+    <!-- far west annex -->
+    <rect x="20" y="280" width="80" height="110" fill="#f1f5f9"/>
+    <rect x="20" y="408" width="80" height="110" fill="#f1f5f9"/>
+    <rect x="100" y="280" width="70" height="110" fill="#f1f5f9"/>
+    <rect x="100" y="408" width="70" height="110" fill="#f1f5f9"/>
+    <!-- middle small -->
+    <rect x="170" y="280" width="90" height="165" fill="#f1f5f9"/>
+    <rect x="170" y="445" width="90" height="103" fill="#fef9c3"/>
+    <rect x="170" y="370" width="45" height="40" fill="#fff"/>
+    <rect x="215" y="370" width="45" height="40" fill="#fff"/>
+  </g>
+  <g text-anchor="middle" font-weight="800" fill="#0f172a" font-size="15">
+    <text x="60" y="342">M132</text>
+    <text x="60" y="470">M133</text>
+    <text x="135" y="342">M131</text>
+    <text x="135" y="470">M134</text>
+    <text x="215" y="365">M131</text>
+    <text x="215" y="505">SHOP-5</text>
+    <text x="192" y="395" font-size="12">M128</text>
+  </g>
+
+  <!-- Quadrangle -->
+  <rect x="260" y="280" width="390" height="268" fill="#ecfdf5" stroke="#0f172a" stroke-width="3"/>
+  <text x="455" y="420" text-anchor="middle" font-size="26" font-weight="800" fill="#0f172a">QUADRANGLE</text>
+  <text x="455" y="442" text-anchor="middle" font-size="12" font-weight="600" fill="#64748b">Open Courtyard</text>
+  <!-- Elevator marker -->
+  <rect x="620" y="500" width="22" height="30" fill="#0f172a"/>
+  <text x="631" y="520" text-anchor="middle" font-size="12" font-weight="800" fill="#fff">E</text>
+
+  <!-- Stairs left -->
+  <rect x="20" y="592" width="20" height="18" fill="#0f172a"/>
+  <text x="335" y="590" font-size="11" font-weight="700" fill="#475569">STAIRS • STAIRS</text>
+
+  <!-- ===== CANTEEN MIDDLE ===== -->
+  <rect x="660" y="100" width="240" height="602" fill="#fff7ed" stroke="#0f172a" stroke-width="3.5"/>
+  <text x="780" y="400" text-anchor="middle" font-size="26" font-weight="800" fill="#0f172a">CANTEEN</text>
+  <text x="780" y="424" text-anchor="middle" font-size="13" font-weight="600" fill="#9a3412">Center • Food Hall</text>
+  <g fill="#cbd5e1">
+    <rect x="700" y="280" width="14" height="14"/>
+    <rect x="760" y="280" width="14" height="14"/>
+    <rect x="820" y="280" width="14" height="14"/>
+    <rect x="700" y="480" width="14" height="14"/>
+    <rect x="760" y="480" width="14" height="14"/>
+    <rect x="820" y="480" width="14" height="14"/>
+  </g>
+
+  <!-- ===== RIGHT WING TOP M118-M123 ===== -->
+  <g stroke="#0f172a" stroke-width="2.5">
+    <rect x="910" y="100" width="112" height="110" fill="#fff"/>
+    <rect x="1022" y="100" width="112" height="110" fill="#fff"/>
+    <rect x="1134" y="100" width="112" height="110" fill="#fff"/>
+    <rect x="1246" y="100" width="112" height="110" fill="#fff"/>
+    <rect x="1358" y="100" width="111" height="110" fill="#fff"/>
+    <rect x="1469" y="100" width="111" height="110" fill="#fff"/>
+  </g>
+  <g text-anchor="middle" font-weight="800" fill="#0f172a" font-size="16">
+    <text x="966" y="165">M118</text>
+    <text x="1078" y="165">M119</text>
+    <text x="1190" y="165">M120</text>
+    <text x="1302" y="165">M121</text>
+    <text x="1413" y="165">M122</text>
+    <text x="1524" y="165">M123</text>
+  </g>
+  <text x="1524" y="118" text-anchor="middle" font-size="10" font-weight="700" fill="#64748b">Female CR</text>
+
+  <!-- ===== RIGHT MIDDLE BLOCKS ===== -->
+  <g stroke="#0f172a" stroke-width="2.5">
+    <!-- CEA / CSD cluster -->
+    <rect x="910" y="280" width="180" height="268" fill="#f5f3ff"/>
+    <rect x="910" y="340" width="90" height="120" fill="#ede9fe"/>
+    <rect x="1000" y="340" width="90" height="120" fill="#fff"/>
+    <!-- OPEN -->
+    <rect x="1090" y="280" width="190" height="268" fill="#f8fafc"/>
+    <!-- College of Communication -->
+    <rect x="1280" y="280" width="300" height="268" fill="#eff6ff"/>
+  </g>
+  <g text-anchor="middle" font-weight="800" fill="#0f172a">
+    <text x="1000" y="318" font-size="18">CEA</text>
+    <text x="1045" y="410" font-size="14" transform="rotate(-90 1045 410)">CSD</text>
+    <text x="1185" y="420" font-size="20">OPEN</text>
+    <text x="1430" y="408" font-size="16">COLLEGE OF</text>
+    <text x="1430" y="430" font-size="16">COMMUNICATION</text>
+  </g>
+
+  <!-- ===== RIGHT WING BOTTOM M101-M106 ===== -->
+  <g stroke="#0f172a" stroke-width="2.5">
+    <rect x="910" y="592" width="112" height="110" fill="#fff"/>
+    <rect x="1022" y="592" width="112" height="110" fill="#fff"/>
+    <rect x="1134" y="592" width="112" height="110" fill="#fff"/>
+    <rect x="1246" y="592" width="112" height="110" fill="#fff"/>
+    <rect x="1358" y="592" width="111" height="110" fill="#fff"/>
+    <rect x="1469" y="592" width="111" height="110" fill="#fff"/>
+  </g>
+  <g text-anchor="middle" font-weight="800" fill="#0f172a" font-size="18">
+    <text x="966" y="657">M101</text>
+    <text x="1078" y="657">M102</text>
+    <text x="1190" y="657">M103</text>
+    <text x="1302" y="657">M104</text>
+    <text x="1413" y="657">M105</text>
+    <text x="1524" y="657">M106</text>
+  </g>
+
+  <!-- CR labels -->
+  <g font-size="11" font-weight="700" fill="#475569">
+    <text x="918" y="590">Male CR</text>
+    <text x="1355" y="590">Male CR</text>
+  </g>
+
+  <!-- Wing labels -->
+  <text x="335" y="760" text-anchor="middle" font-size="16" font-weight="800" fill="#0f172a">LEFT WING</text>
+  <text x="335" y="780" text-anchor="middle" font-size="12" font-weight="600" fill="#64748b">M107–M115 • M128 • M131–M134 • SHOP-5</text>
+
+  <text x="1245" y="760" text-anchor="middle" font-size="16" font-weight="800" fill="#0f172a">RIGHT WING</text>
+  <text x="1245" y="780" text-anchor="middle" font-size="12" font-weight="600" fill="#64748b">M101–M106 • M118–M123 • CEA • CSD • OPEN</text>
+
+  <!-- Footer -->
+  <text x="800" y="830" text-anchor="middle" font-size="13" font-weight="600" fill="#64748b">Rooms prefixed with M for Main Building • SHOP-5, CANTEEN, QUADRANGLE, CEA, CSD, COLLEGE OF COMMUNICATION retained as facilities</text>
+  <text x="800" y="850" text-anchor="middle" font-size="12" font-weight="600" fill="#94a3b8">Emergency symbols, arrows, and “You are here” removed • Schematic for mobile navigation</text>
+</svg>
