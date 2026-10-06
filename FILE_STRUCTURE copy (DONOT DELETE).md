@@ -1,6 +1,6 @@
 # Project Structure
 
-Last Updated: 2026-10-06 01:15 PM
+Last Updated: 2026-10-05 12:00 PM
 
 ## Project Tree
 
@@ -62,15 +62,7 @@ Indoor Navigation App/
         │   └── shortcuts.ts                    ← QUICK_SHORTCUTS static data
         ├── components/
         │   ├── common/
-        │   │   ├── BottomSheetModal.jsx        ← Reusable animated bottom sheet modal
         │   │   └── Icon.tsx                    ← SVG icon library
-        │   ├── controls/
-        │   │   ├── ZoomableView.jsx            ← Pan and zoom gesture container
-        │   │   └── ZoomControls.jsx            ← Floating zoom buttons
-        │   ├── editor/
-        │   │   ├── EditableFloorPlan.jsx       ← Interactive floor plan editor
-        │   │   ├── EditToolbar.jsx             ← Editor action toolbar
-        │   │   └── RoomEditorSheet.jsx         ← Precision room geometry modal sheet
         │   ├── auth/
         │   │   ├── LoginView.tsx               ← Full-screen login compositor
         │   │   ├── EduLoginModal.tsx           ← @neu.edu.ph email modal
@@ -88,9 +80,7 @@ Indoor Navigation App/
         │   │   ├── LiveTracker.tsx             ← Real-time PDR tracking UI
         │   │   ├── MapControls.tsx             ← Zoom / recenter / north buttons
         │   │   ├── RoomCell.tsx                ← Classroom and wing room cell component
-        │   │   ├── RoomStrip.tsx               ← Multi-room strip renderer (count-parameterized)
-        │   │   ├── ZoomableView.jsx            ← Pinch-to-zoom + pan gesture wrapper (Animated + PanResponder)
-        │   │   └── ZoomControls.jsx            ← Floating zoom in / zoom out / reset buttons
+        │   │   └── RoomStrip.tsx               ← Multi-room strip renderer (count-parameterized)
         │   └── navigation/
         │       ├── DestinationBar.tsx          ← Origin/destination top bar
         │       ├── RouteCard.tsx               ← Turn-by-turn route summary card
@@ -113,16 +103,8 @@ Indoor Navigation App/
 ## History Log
 
 
-### 2026-10-06
-
-🕑 01:15 PM | 📄✨ Created File | indoor-navigator/src/components/common/BottomSheetModal.jsx
-🕑 01:15 PM | 📄✏️ Modified File | indoor-navigator/src/components/editor/RoomEditorSheet.jsx (redesigned into BottomSheetModal with precision numeric text inputs)
-
 ### 2026-10-05
 
-🕑 12:30 PM | 📄✨ Created File | indoor-navigator/src/components/map/ZoomableView.jsx
-🕑 12:30 PM | 📄✨ Created File | indoor-navigator/src/components/map/ZoomControls.jsx
-🕑 12:30 PM | 📄✏️ Modified File | indoor-navigator/App.jsx (added ZoomableView wrapper + ZoomControls overlay)
 🕑 12:00 PM | 📄✏️ Synced FILE_STRUCTURE.md | Expanded .agents/ tree, fixed assets/ listing (removed ghost adaptive-icon.png, added 7 new asset files + main1F-floorplan.svg), fixed annotation markers on selfCheck.ts and store.ts
 
 ### 2026-09-30
